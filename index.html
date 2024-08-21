@@ -39,7 +39,7 @@
     </style>
 </head>
 <body>
-    <header class="container mx-auto lg:mb-24  border">
+    <header class="container mx-auto lg:mb-24">
         <nav class="lg:mx-36 md:mx-18 border lg:py-5">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -162,7 +162,7 @@
         </section>
     </header>
 
-    <main class="container mx-auto lg:mb-24 border">
+    <main class="container mb-8 mx-auto lg:mb-24">
       <section class="mb-16 text-center max-w-2xl mx-auto space-y-5">
         <h1 class="font-EB md:text-4xl text-3xl lg:text-5xl">The Legal Practice Area</h1>
         <p class="font-poppins">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
@@ -170,7 +170,7 @@
 
       <section class="lg:mx-36 lg:mb-10 md:mx-18 grid lg:grid-cols-3 md:grid-cols-2">
 
-        <div class="card border-b rounded-none w-full">
+        <div class="card lg:border-b rounded-none w-full">
           <figure class="px-10 pt-10">
             <img
               src="images/business.png"
@@ -186,7 +186,7 @@
           </div>
         </div>
 
-        <div class="card border-l border-b rounded-none w-full">
+        <div class="card lg:border-l lg:border-b rounded-none w-full">
           <figure class="px-10 pt-10">
             <img
               src="images/criminal.png"
@@ -202,7 +202,7 @@
           </div>
         </div>
 
-        <div class="card border-b border-l rounded-none  w-full">
+        <div class="card lg:border-b lg:border-l rounded-none  w-full">
           <figure class="px-10 pt-10">
             <img
               src="images/child.png"
@@ -234,7 +234,7 @@
           </div>
         </div>
      
-        <div class="card border-l rounded-none w-full">
+        <div class="card lg:border-l rounded-none w-full">
           <figure class="px-10 pt-10">
             <img
               src="images/divorce.png"
@@ -250,7 +250,7 @@
           </div>
         </div>
 
-        <div class="card border-l rounded-none w-full">
+        <div class="card lg:border-l rounded-none w-full">
           <figure class="px-10 pt-10">
             <img
               src="images/tax.png"
@@ -268,8 +268,8 @@
 
       </section>
 
-      <section class="lg:mx-36 lg:mb-16 md:mx-18">
-        <div class="carousel w-full lg:h-[500px] md:h-[400px]">
+      <section class="lg:mx-36 lg:mb-16 mb-5 md:mx-18">
+        <div class="carousel w-full lg:h-[500px] md:h-[400px] h-[280px]">
           <div id="slide1" class="carousel-item relative w-full">
             <img
               src="images/slider-1.jpg"
@@ -344,7 +344,7 @@
 
       <section class="grid m-2 lg:grid-cols-2 lg:mx-36 lg:mb-16 md:mx-18 gap-6">
          <!-- text-title -->
-          <div class="space-y-5 border">
+          <div class="space-y-5">
             <div class="collapse collapse-plus bg-base-200 py-3">
               <input type="radio" name="my-accordion-3" checked="checked" />
               <div class="collapse-title text-xl font-EB">1. Are application fee waivers available?</div>
@@ -383,17 +383,17 @@
           </div>
 
           <!-- image-title -->
-           <div class="border">
+           <div>
             <img src="images/faq.png" alt="">
            </div>
       </section>
 
-      <section class="lg:mb-10 mb-4 text-center max-w-2xl mx-auto space-y-5">
+      <section class="lg:mb-10 mb-4 mt-4 text-center max-w-2xl mx-auto space-y-5">
         <h1 class="font-EB md:text-4xl text-3xl lg:text-5xl">Contact With Us</h1>
         <p class="font-poppins">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
       </section>
 
-      <section class=" lg:mx-36 md:mx-18">
+      <section class=" lg:mx-36 md:mx-18 mx-4">
         <div class="grid lg:grid-cols-2 gap-10">
           <!-- image -->
           <div class="grid grid-cols-2 mb-4 md:mb-0">
@@ -419,6 +419,7 @@
               <img class="mx-auto" src="images/email.png" alt="">
               <h4 class="font-EB">Email Us</h4>
               <p class="font-poppins">info@gmail.com
+                <br>
                 info@gmail.com
               </p>
             </div>
@@ -434,13 +435,13 @@
           <!-- input -->
           <div class="space-y-8">
             <input
-            class="pl-4 rounded-md w-full h-16 outline-none bg-base-200" type="text" name="" id="" placeholder="Your Name">
+            class="pl-4 rounded-md w-full lg:w-full md:w-4/5 h-16 outline-none bg-base-200" type="text" name="" id="" placeholder="Your Name">
             <input
-            class="pl-4 rounded-md w-full h-16 outline-none bg-base-200" type="email" name="" id="" placeholder="Your Email">
+            class="pl-4 rounded-md w-full lg:w-full md:w-4/5 h-16 outline-none bg-base-200" type="email" name="" id="" placeholder="Your Email">
             <input
-            class="pl-4 rounded-md w-full h-16 outline-none bg-base-200" type="text" name="" id="" placeholder="Subject">
-            <textarea class="bg-base-200 pl-4 rounded-md" name="" id="" placeholder="Your Message"></textarea>
-            <button class="btn btn-color w-full">Send Message</button>
+            class="pl-4 rounded-md w-full lg:w-full md:w-4/5 h-16 outline-none bg-base-200" type="text" name="" id="" placeholder="Subject">
+            <textarea class="bg-base-200 w-full pl-4 rounded-md pt-4 lg:w-full md:w-4/5 h-40" name="" id="" placeholder="Your Message"></textarea>
+            <button class="btn btn-color lg:w-full md:w-1/2">Send Message</button>
           </div>
         </div>
 
